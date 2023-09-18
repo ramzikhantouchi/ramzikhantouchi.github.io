@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.left-side {
+    width: 35%;
+    background-color: #f2f2f2;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+    padding-top: 7%;
+}
+
+.left-side img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.left-side h1 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.left-side p {
+    color: #777;
+    margin: 5px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.right-side {
+    width: 65%;
+    padding: 50px;
+    margin-left: 35%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section p{
+    line-height: 1.5em;
+}
+
+#ed li{
+    padding: 5px;
+    line-height: 1.5em;
+    
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+/* Media query for making left side on top in mobile and tablet views */
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-side {
+        width: 100%;
+        order: 1;
+        position: static;
+        height: auto;
+        overflow: visible;
+        padding-bottom: 30px;
+    }
+
+    .right-side {
+        width: 100%;
+        margin-left: 0;
+        order: 2;
+        overflow: scroll;
+    }
+
+    .left-side img {
+        width: 150px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    .section p{
+        line-height: 1.5em;
+    }
+    
+    #ed li{
+        padding: 5px;
+        line-height: 1.5em;
+        
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .left-side h1 {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+
