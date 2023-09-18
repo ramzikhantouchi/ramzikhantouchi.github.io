@@ -60,7 +60,7 @@ body {
     line-height: 1.5em;
 }
 
-#ed li{
+.ed li{
     padding: 5px;
     line-height: 1.5em;
     
@@ -74,14 +74,7 @@ h2 {
 
 
 
-.skills ul {
-    list-style-type: none;
-    padding: 0;
-}
 
-.skills li {
-    margin-bottom: 10px;
-}
 
 
 
@@ -121,7 +114,7 @@ h2 {
         line-height: 1.5em;
     }
     
-    #ed li{
+    .ed li{
         padding: 5px;
         line-height: 1.5em;
         
