@@ -90,7 +90,7 @@ h2 {
     }
 
     .left-side {
-        width: 100%;
+        width: auto;
         order: 1;
         position: static;
         height: auto;
@@ -99,10 +99,11 @@ h2 {
     }
 
     .right-side {
-        width: 100%;
+        width: auto;
         margin-left: 0;
         order: 2;
         overflow: scroll;
+        padding: 10px 10px 10px 24px;
     }
 
     .left-side img {
