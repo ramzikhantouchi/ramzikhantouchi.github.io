@@ -76,6 +76,44 @@ h2 {
 
 
 
+/* Hide the scrollbar but allow scrolling */
+.right-side::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  .right-side::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  /* For Firefox */
+  .right-side-hide-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+
+  /* this is to hide scroll bar from all page */
+
+/* Customize the appearance of the scrollbar but allow scrolling */
+body::-webkit-scrollbar {
+    width: 0px; /* Adjust the width as needed */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+    border-radius: 55px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: wheat; /* Thumb color */
+    border-radius: 55px;
+  }
+  
+  /* For Firefox */
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: #f1f1f1 #888; /* Track and thumb colors */
+  }
 
 
 
@@ -132,4 +170,6 @@ h2 {
         font-weight: bold;
     }
 }
+
+
 
