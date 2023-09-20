@@ -58,18 +58,20 @@ body {
 
 .section p{
     line-height: 1.5em;
+    color: #444;
 }
 
 .ed li{
     padding: 5px;
     line-height: 1.5em;
+    color: #444
     
 }
 
 h2 {
     font-weight: bold;
     font-size: 18px;
-    color: #333;
+    color: #131313;
 }
 
 
@@ -151,17 +153,19 @@ body::-webkit-scrollbar {
     }
     .section p{
         line-height: 1.5em;
+        color: #444
     }
     
     .ed li{
         padding: 5px;
         line-height: 1.5em;
+        color: #444
         
     }
     h2 {
         font-weight: bold;
         font-size: 18px;
-        color: #333;
+        color: #131313;
     }
 
     .left-side h1 {
